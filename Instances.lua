@@ -1,7 +1,7 @@
 local _, ns = ...
 
 if ns:IsSoD() then
-    ns.RAIDS = {[48] = "Blackfathom Deeps", [90] = "Gnomeregan", [109] = "Sunken Temple"}
+    ns.RAIDS = {[48] = "Blackfathom Deeps", [90] = "Gnomeregan", [109] = "Sunken Temple", [2789] = "Lord Kazzak", [2791] = "Azuregos"}
 elseif ns:IsClassic() then
     ns.RAIDS = {
         [509] = "AQ20",
